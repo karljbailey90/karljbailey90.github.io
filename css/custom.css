@@ -35,6 +35,10 @@ ul.nav, .jumbotron h1 {
 	margin-bottom: 30px;
 }
 
+.btn {
+	margin-bottom: 10px;
+} 
+
 .btn-lg {
 	font-size: 26px;
 }
