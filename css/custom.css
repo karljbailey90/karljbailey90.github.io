@@ -125,5 +125,221 @@ ul.nav, .jumbotron h1 {
 .social {
    padding-top: 15px;
    padding-right: 7.5px;
-   padding-left: 7.5px; 
+   padding-left: 7.5px;
+}
+
+   /*/                       /*/
+  /*/        media          /*/
+ /*/       queries         /*/
+/*/                       /*/
+
+  /*/                           /*/
+ /*/ screen sizes above 1199px /*/
+/*/                           /*/
+@media (min-width: 1200px) {
+
+   .social {
+   padding-left: 16px;
+   padding-right: 16px;
+   font-size: 16pt;
+   }
+
+   .jumbotron h1 {
+    font-size: 70pt;
+   }
+
+   .jumbotron p {
+   font-size: 16pt;
+   padding: 10px;
+   margin-left: 40px;
+   margin-right: 40px;
+   margin-bottom: 35px;
+   }
+
+   .col-md-6 {
+   padding: 40px;
+   }
+
+   .col-md-6 h2 {
+   font-size: 40pt;
+   }
+
+   .col-md-6 p {
+   font-size: 14pt;
+   }
+}
+
+  /*/                                       /*/
+ /*/ screen sizes between 992px and 1199px /*/
+/*/                                       /*/
+@media (max-width: 1199px) {
+
+   .social {
+   padding-left: 13px;
+   padding-right: 13px;
+   font-size: 14pt;
+   }
+
+   .jumbotron h1 {
+    font-size: 63pt;
+   }
+
+   .jumbotron p {
+   font-size: 13pt;
+   padding: 5px;
+   margin-left: 25px;
+   margin-right: 25px;
+   margin-bottom: 30px;
+   }
+
+   .col-md-6 {
+   padding: 20px;
+   }
+
+   .col-md-6 h2 {
+   font-size: 33pt;
+   }
+}
+
+  /*/                                        /*/
+ /*/  screen sizes between 769px and 992px  /*/
+/*/                                        /*/
+@media (max-width: 992px) {
+
+   .social {
+   padding-top: 15px;
+   padding-left: 13px;
+   padding-right: 13px;
+   font-size: 13pt;
+   }
+
+   .jumbotron h1 {
+   font-size: 55pt;
+   }
+
+   .jumbotron p {
+   font-size: 12pt;
+   padding: 5px;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-bottom: 30px;
+   }
+
+   .col-md-6 {
+   padding-left: 40px;
+   padding-right: 40px;
+   padding: 30px;
+   }
+
+   .col-md-6 h2 {
+   font-size: 33pt;
+   }
+
+   .col-md-6 p {
+   font-size: 13pt;
+   padding-top: 10px;
+   padding-right: 20px;
+   padding-bottom: 10px;
+   padding-left: 20px;
+   }
+
+  /*/                            /*/
+ /*/  screen sizes up to 768px  /*/
+/*/                            /*/
+@media (max-width: 768px) {
+
+   .social {
+   padding-top: 15px;
+   padding-left: 13px;
+   padding-right: 13px;
+   font-size: 13pt;
+   }
+
+   .jumbotron {
+   background-attachment: fixed;
+   background-image: url(../images/new-york.jpg);
+   text-align: center;
+   }
+
+   .jumbotron h1 {
+   font-size: 40pt;
+   }
+
+   .jumbotron p {
+   font-size: 11pt;
+   padding: 5px;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-bottom: 30px;
+   }
+
+   .col-md-6 {
+   padding-left: 40px;
+   padding-right: 40px;
+   padding: 30px;
+   }
+
+   .col-md-6 h2 {
+   font-size: 33pt;
+   }
+
+   .col-md-6 p {
+   font-size: 13pt;
+   padding-top: 10px;
+   padding-right: 20px;
+   padding-bottom: 10px;
+   padding-left: 20px;
+   }
+
+  /*/                            /*/
+ /*/  screen sizes up to 399px  /*/
+/*/                            /*/
+@media (max-width: 399px) {
+
+   .social {
+   padding-top: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+   font-size: 10pt;
+   }
+
+   .jumbotron {
+   background-attachment: fixed;
+   background-image: url(../images/new-york.jpg);
+   text-align: center;
+   }
+
+   .jumbotron h1 {
+   font-size: 20pt;
+   margin-bottom: 15px;
+   margin-top: 0px;
+   }
+
+   .jumbotron p {
+   font-size: 11pt;
+   padding: 2px;
+   margin-left: 5px;
+   margin-right: 5px;
+   margin-bottom: 10px;
+   }
+
+   .col-md-6 {
+   padding-left: 40px;
+   padding-right: 40px;
+   padding: 30px;
+   }
+
+   .col-md-6 h2 {
+   font-size: 25pt;
+   }
+
+   .col-md-6 p {
+   font-size: 12pt;
+   padding-top: 10px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+margin-bottom: 0px;
+   }
+
 }
