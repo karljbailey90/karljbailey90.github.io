@@ -124,5 +124,6 @@ ul.nav, .jumbotron h1 {
 }
 .social {
    padding-top: 15px;
-   padding-right: 15px;
+   padding-right: 7.5px;
+   padding-left: 7.5px; 
 }
