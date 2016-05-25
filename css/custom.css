@@ -123,20 +123,6 @@ ul.nav, .jumbotron h1 {
 	height: 100%;
 }
 .social {
-
-   background-color: rgba(192,192,192,0.5);
    padding-top: 15px;
-   padding-right: 5px;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a:visited {
-   text-decoration: none;
+   padding-right: 15px;
 }
