@@ -448,4 +448,59 @@ margin-bottom: 0px;
   margin-bottom: 0px;
    }
 
+  /*/                            /*/
+ /*/  screen sizes up to 173px  /*/
+/*/                            /*/
+@media (max-width: 173px) {
+
+   .navbar img {
+   width: 120px;
+   }
+
+   .social {
+   padding-top: 5px;
+   padding-left: 0px;
+   padding-right: 0px;
+   font-size: 4pt;
+   }
+
+   .jumbotron {
+   background-attachment: fixed;
+   background-image: url(../images/new-yorkcrop.jpg);
+   text-align: center;
+   }
+
+   .jumbotron h1 {
+   font-size: 20pt;
+   margin-bottom: 13px;
+   margin-top: 0px;
+   }
+
+   .jumbotron p {
+   font-size: 8pt;
+   padding: 2px;
+   margin-left: 3px;
+   margin-right: 3px;
+   margin-bottom: 10px;
+   }
+
+   .col-md-6 {
+   padding-left: 20px;
+   padding-right: 20px;
+   padding: 15px;
+   }
+
+   .col-md-6 h2 {
+   font-size: 22pt;
+   }
+
+   .col-md-6 p {
+   font-size: 10pt;
+   padding-top: 10px;
+   padding-right: 6px;
+   padding-bottom: 6px;
+   padding-left: 10px;
+  margin-bottom: 0px;
+   }
+
 }
