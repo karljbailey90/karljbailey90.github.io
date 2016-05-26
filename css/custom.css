@@ -403,10 +403,10 @@ margin-bottom: 0px;
    }
 
    .social {
-   padding-top: 10px;
-   padding-left: 3px;
-   padding-right: 3px;
-   font-size: 8pt;
+   padding-top: 7px;
+   padding-left: 1px;
+   padding-right: 1px;
+   font-size: 5pt;
    }
 
    .jumbotron {
@@ -416,13 +416,13 @@ margin-bottom: 0px;
    }
 
    .jumbotron h1 {
-   font-size: 20pt;
+   font-size: 23pt;
    margin-bottom: 15px;
    margin-top: 0px;
    }
 
    .jumbotron p {
-   font-size: 10pt;
+   font-size: 8pt;
    padding: 2px;
    margin-left: 5px;
    margin-right: 5px;
