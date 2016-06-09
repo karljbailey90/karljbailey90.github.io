@@ -35,6 +35,10 @@ ul.nav, .jumbotron h1 {
 	margin-bottom: 30px;
 }
 
+#button_cipher {
+   font-size: 30pt;
+}
+
 .btn {
    margin-bottom: 10px;
 }
@@ -394,6 +398,10 @@ margin-bottom: 0px;
    margin-bottom: 0px;
    }
 
+   #button_cipher {
+   font-size: 20pt;
+   }
+
   /*/                            /*/
  /*/  screen sizes up to 231px  /*/
 /*/                            /*/
@@ -428,6 +436,10 @@ margin-bottom: 0px;
    margin-left: 5px;
    margin-right: 5px;
    margin-bottom: 10px;
+   }
+
+   #button_cipher {
+      font-size: 20pt;
    }
 
    .col-md-6 {
