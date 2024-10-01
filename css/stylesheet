@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artistic Endeavors</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
+</head>
+<body>
+    <header>
+        <h1>Artistic Endeavors</h1>
+        <nav>
+            <ul>
+                <li><a href="#music">Music</a></li>
+                <li><a href="#art">Art</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="music">
+        <h2>Music</h2>
+        <p>Discover our latest music tracks below:</p>
+        <!-- Music content goes here -->
+        <audio controls>
+            <source src="song.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+    <section id="art">
+        <h2>Art</h2>
+        <div class="carousel">
+            <!-- Images for the carousel -->
+            <div><img src="art1.jpg" alt="Artwork 1"></div>
+            <div><img src="art2.jpg" alt="Artwork 2"></div>
+            <div><img src="art3.jpg" alt="Artwork 3"></div>
+        </div>
+    </section>
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Read my latest posts on everything from art techniques to personal reflections.</p>
+        <!-- Blog content goes here -->
+    </section>
+    <footer>
+        <p>© 2024 Artistic Endeavors. All rights reserved.</p>
+    </footer>
+    <script>
+        $(document).ready(function(){
+            $('.carousel').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+            });
+        });
+    </script>
+</body>
+</html>
